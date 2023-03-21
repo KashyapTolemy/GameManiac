@@ -1,9 +1,17 @@
 import React from "react";
 
-export default function Recommend(){
+export default function Recommendation({boxes}){
     return(
-        <div>
-            
+        <div className="recommendcontainer">
+            <h2 className="boxtitle">Recommended for you </h2>
+            <div className="recommendboxes">
+                {boxes.map((box)=>(
+                    <div key={box.id}>
+                        <img className ="horizontalbox" src={box.background_image} alt ={box.name}></img>
+                        <h4 className="titleratingrecommend">{box.name}({box.rating}/{box.rating_top})</h4>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

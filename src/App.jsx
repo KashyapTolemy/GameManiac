@@ -3,15 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Salespage from './components/salespage'
-import page1 from './images/page1.png'
-import Carousal from './components/carousal'
+import Carousel from './components/carousel'
 import Recommendation from './components/recommendation'
+import slides from './mock.json'
+import { useEffect } from 'react'
+
 export default function App() {
+  // useEffect(async () => {
+  //   const res = await fetch("https://api.rawg.io/api/platforms?key=1749e12ccc8b4268bc3e3f4e402b1184")
+  //   const data = await res.json()
+  //   console.log(data)
+  // }, [])
     return (
       <div>
         <Salespage />
-        <Carousal />
-        <Recommendation />
+        <Carousel slides={slides}/>
+        <Recommendation boxes={slides}/>
       </div>
     )
 }

@@ -1,17 +1,14 @@
 *{
   background-color:rgb(46,78,93);
 }
+
 .page1{
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\page1.png');
-  /* background-size:cover; */
-  /* background-color: rgb(27, 118, 198); */
   background-repeat:no-repeat;
   padding-top:0px;
   height: 70vh;
   width: 100vw;
   display:flex;
-  /* justify-content:center; */
-  /* align-items:center; */
   padding-top:14.4vh;
   padding-left:34.7vw;
 }
@@ -28,28 +25,112 @@
   border-style:double;
   box-shadow:2px 2px 2px 2px;
   font-family: 'Tourney', cursive;
-  /* font-weight: 900; */
   font-size: 30px;
   -webkit-text-stroke-color:solid white;
 }
-.vertboxes{
+
+.boxtitle{
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2vw;
+  margin-top: 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.sliderimg{
+  width:30vw;
+  height:45vh;
+  border-radius: 6px;
+}
+.swiper-wrapper{
+  padding-left: 2vw;
+  padding-right: 6vw;
+}
+.swiper-pagination{
+  opacity: 0.3;
+}
+.swiper-button{
+  opacity:0.3;
+}
+:root{
+  --swiper-theme-color: white!important;
+}
+
+.titleslider{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  margin: 0px;
+  width: 30vw;
+  color: rgb(253, 252, 245);
+  text-transform: uppercase;
+  background-color: rgb(68, 122, 147);
+}
+.ratingslider{
+  color: rgb(255, 217, 0);
+  background-color: rgb(68, 122, 147);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 3px;
+}
+.sliderbox{
+  width: 30vw;
+  background-color: rgb(68, 122, 147);
+  margin-left: 4vw;
+  margin-bottom: 4px;
+}
+
+.genre{
+  background-color: rgb(68, 122, 147);
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin: 0px;
+  padding-bottom: 3px;
+  padding-left: 2px;
+  padding-right: 4px;
 }
-.verticalbox{
-  height: 33vh;
-  width: 18vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  background-color: rgb(84, 165, 196);
+.genrename{
+  background-color: rgb(102, 106, 115);
+  color:rgb(186, 183, 183);
+  border: 2px solid rgba(112, 112, 114, 0.839);
+  border-radius: 5px;
+  margin: 0px;
+  /* padding: 0px;
+   */
+  margin-left: 4px;
+  padding-right: 4px;
 }
-.carousalbox{
+
+.recommendcontainer{
   display: flex;
   flex-direction: column;
+  width: 1455px;
+  padding-top:100px;
 }
-.topdiscounts{
-  color:white;
-  padding-left: 18vw;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: 0px;
+.recommendboxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+.horizontalbox{
+  height: 20vh;
+  width: 16vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: rgb(84, 165, 196);
+}
+
+
+/* Hover effects */
+/* .sliderbox .withover{
+  transform:translateY(100%);
+}
+.sliderbox:hover .withouthover{
+    transform: translateY(100%);
+}
+.sliderbox:hover .withover{
+  transform:translateY(0);
+} */
