@@ -6,6 +6,8 @@ import Salespage from './components/salespage'
 import Carousel from './components/carousel'
 import Recommendation from './components/recommendation'
 import slides from './mock.json'
+import Genrewise from './components/genrewise'
+import Tagwise from './components/tagwise'
 import { useEffect } from 'react'
 
 export default function App() {
@@ -19,6 +21,8 @@ export default function App() {
         <Salespage />
         <Carousel slides={slides}/>
         <Recommendation boxes={slides}/>
+        <Genrewise slides={slides}/>
+        <Tagwise slides={slides}/>
       </div>
     )
 }
