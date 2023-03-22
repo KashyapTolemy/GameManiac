@@ -56,7 +56,7 @@ export default function Carousel({ slides }) {
                 <Swiper
                 modules={[Autoplay,Navigation, Pagination, Scrollbar, A11y]}
                 autoplay={{
-                  delay: 2000,
+                  delay: 1500,
                   disableOnInteraction: false,
                 }}
                   spaceBetween={0}
@@ -89,6 +89,7 @@ export default function Carousel({ slides }) {
                     ))}
                   </h4>
                 </h4>
+                  <h5 className="showmore"><span className="spanshowmore">Show more..</span></h5>
               </div>
             </div>
           </SwiperSlide>
