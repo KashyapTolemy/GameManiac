@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Recommendation({boxes}){
+export default function Recommendation({slides}){
     return(
         <div className="recommendcontainer">
             <h2 className="boxtitle">Top Rated Games </h2>

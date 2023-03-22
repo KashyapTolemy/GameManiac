@@ -35,13 +35,15 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 2vw;
   margin-top: 0px;
-  margin-left: 10vw;
+  margin-left: 1vw;
   margin-right: 10vw;
 }
 
 .sliderimg{
   width:29vw;
   height:45vh;
+  border:0.3px solid white;
+  border-bottom: 0px;
   border-radius: 6px;
 }
 .swiper-wrapper{
@@ -121,13 +123,14 @@
   flex-wrap: wrap;
 }
 .horizontalbox{
-  height: 20vh;
-  width: 16vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  height: 22vh;
+  width: 23vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
   background-color: rgb(84, 165, 196);
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: 3px;
 }
 
 
@@ -166,6 +169,7 @@
   width:444px;
   height: 200px;
   margin: 2px;
+  border: 2px solid green;
 }
 .innerswiper{
   /* display: flex;
