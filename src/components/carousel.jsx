@@ -61,7 +61,6 @@ export default function Carousel({ slides }) {
                 }}
                   spaceBetween={0}
                   slidesPerView={1}
-                  // navigation={true}
                   pagination={{ clickable: true }}
                   scrollbar={{ draggable: true }}
                   onSlideChange={() => console.log("slide change")}
