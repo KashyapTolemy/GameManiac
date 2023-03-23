@@ -311,4 +311,23 @@
 }
 .classicContainer{
   color: white;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin-left: 1vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* display: flex; */
+}
+
+.classictitle{
+  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\B.png');
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: auto;
+  border: 1px solid white;
+  border-radius:0.5px;
+}
+.classicimages{
+  display: flex;
+  height: 20vh;
+  width: 12vw;
 }

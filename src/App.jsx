@@ -9,6 +9,7 @@ import slides from './mock.json'
 import Genrewise from './components/genrewise'
 import Tagwise from './components/tagwise'
 import Classic from './components/classic'
+
 import { useEffect } from 'react'
 
 export default function App() {

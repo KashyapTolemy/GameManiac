@@ -3,7 +3,12 @@ import React from "react";
 export default function Classic({slides}){
     return(
         <div className="classicContainer">
-            <h2>CLASSICS </h2>
+            <div className="classictitle"></div>
+            <div className="classicimages">
+            {slides.map(slide=>(
+                <img src={slide.background_image}></img>
+            ))}
+            </div>   
         </div>
     )
 }
