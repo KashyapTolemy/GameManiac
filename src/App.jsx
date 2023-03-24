@@ -9,7 +9,7 @@ import slides from './mock.json'
 import Genrewise from './components/genrewise'
 import Tagwise from './components/tagwise'
 import Classic from './components/classic'
-import Mostawarded from './components/mostawarded'
+import Awarded from './components/awarded'
 import { useEffect } from 'react'
 
 export default function App() {
@@ -26,7 +26,7 @@ export default function App() {
         <Genrewise slides={slides}/>
         <Tagwise slides={slides}/>
         <Classic slides={slides}/>
-        <Mostawarded slides={slides}/>
+        <Awarded slides={slides}/>
       </div>
     )
 }

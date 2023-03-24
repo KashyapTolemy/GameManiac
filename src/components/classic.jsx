@@ -4,10 +4,10 @@ export default function Classic({slides}){
     return(
         <div className="classicContainer">
             {/* <div className="classictitle"></div> */}
-            <img src={pacman}></img>
+            <img classname="pacmanimage" src={pacman} alt="classic"></img>
             <div className="classicimages">
             {slides.slice(0,8).map(slide=>(
-                <img src={slide.background_image}></img>
+                <img src={slide.background_image} alt="gameimages"></img>
             ))}
             </div>   
         </div>

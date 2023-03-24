@@ -310,12 +310,12 @@
 }
 .classicContainer{
   color: white;
-  margin-bottom: 3vh;
-  margin-top: 3vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
   margin-left: 1vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
-  border: 1px solid white;
+  border: 3px solid rgb(150,147,251);
   border-radius:7px;
 }
 
@@ -332,7 +332,7 @@
 .classicimages img{
   height: 20vh;
   width: 17vw;
-  border:0.1px solid rgb(10, 10, 94);
+  border:0.1px solid rgb(110, 109, 109);
   border-radius: 5px;
   margin-left: 2px;
   margin-right: 2px;
@@ -342,3 +342,30 @@
 .classicimages img:hover{
   opacity: 0.6;
 }
+.awardsContainer{
+  color: white;
+  flex-direction: row-reverse;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+  margin-left: 1vw;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  border: 3px solid rgb(227,131,19);
+  border-radius:7px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.awardsimages img{
+  height: 20vh;
+  width: 20vw;
+  border:0.1px solid rgb(110, 109, 109);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.awardsimages img:hover{
+  opacity: 0.6;
+}
+
