@@ -3,13 +3,8 @@ import { useState, useEffect } from "react";
 
 export default function Tagwise({ slides }) {
     const [filteredSlidesAction, setFilteredSlidesAction] = useState([])
-
-    // const arr = slides.map(slide => {
-    //     return slide.tags.map(tag => {
-    //         return tag        
-    //     })
-    // })
-    // console.log(arr)
+    
+    
     return (
 
         <div className="tagcontainer">
