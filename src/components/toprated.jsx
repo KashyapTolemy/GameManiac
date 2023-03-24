@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Recommendation({slides}){
+export default function Toprated({boxes}){
     return(
         <div className="recommendcontainer">
-            <h2 className="boxtitle">Top Rated Games </h2>
+            <h2 className="boxtitle">TOP RATED GAMES </h2>
             <div className="recommendboxes">
                 {boxes.map((box)=>(
                     <div key={box.id}>

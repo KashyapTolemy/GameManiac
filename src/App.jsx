@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Salespage from './components/salespage'
 import Carousel from './components/carousel'
-import Recommendation from './components/recommendation'
+import Toprated from './components/toprated'
 import slides from './mock.json'
 import Genrewise from './components/genrewise'
 import Tagwise from './components/tagwise'
@@ -22,7 +22,7 @@ export default function App() {
       <div>
         <Salespage />
         <Carousel slides={slides}/>
-        <Recommendation boxes={slides}/>
+        <Toprated boxes={slides}/>
         <Genrewise slides={slides}/>
         <Tagwise slides={slides}/>
         <Classic slides={slides}/>

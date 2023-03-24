@@ -110,6 +110,7 @@
   flex-direction: column;
   width: 1455px;
   padding-top:100px;
+  color: white;
 }
 .recommendboxes{
   display: flex;
@@ -122,10 +123,16 @@
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
   background-color: rgb(84, 165, 196);
   border: 1px solid white;
   border-radius: 5px;
+}
+.titleratingrecommend{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.horizontalbox:hover{
+  opacity: 0.7;
 }
 
 
@@ -136,10 +143,7 @@
   flex-direction: column;
 }
 .withover{
-  /* height: 399.11px;
-  width: auto; */
   background-color: rgb(14,51,49);
-  /* height: 100%; */
   border-radius: 8px;
   position: absolute;
   top:0;
@@ -191,6 +195,7 @@
   padding-right: 2px;
   color: rgb(201, 198, 198);
   margin:0px;
+  font-style: italic;
 }
 .platformname{
   background-color: inherit;
@@ -340,6 +345,8 @@
   margin-bottom: 2px;
 }
 .classicimages img:hover{
+  transform: scale(1.05);
+  transition: transform 1s;
   opacity: 0.6;
 }
 .awardsContainer{
@@ -366,6 +373,7 @@
   margin-bottom: 2px;
 }
 .awardsimages img:hover{
+  transform: scale(1.05);
+  transition: transform 1s;
   opacity: 0.6;
 }
-
