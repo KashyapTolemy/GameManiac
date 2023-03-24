@@ -2,12 +2,15 @@ import React from "react";
 import awards from "../images/gameawards1.jpg"
 
 export default function awarded({slides}){
+    const awarditems = slides.filter(slide=>{
+        return slide.tags.some(tag=>tag.name='Steam Achievements')
+    })
     return(
         <div className="awardsContainer">
             <img classname="gameawardimage" src={awards} alt="gameawards"></img>
             <div className="awardsimages">
-            {slides.slice(0,6).map(slide=>(
-                <img src={slide.background_image} alt="gameimages"></img>
+            {awarditems.slice(0,6).map(awarditem=>(
+                <img src={awarditem.background_image} alt="gameimages"></img>
             ))}
             </div> 
         </div>
