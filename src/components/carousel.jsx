@@ -8,6 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/swiper-bundle.min.css";
 import { useState } from "react";
+import { Route,Routes,Link } from 'react-router-dom'
+
 
 export default function Carousel({ slides }) {
   SwiperCore.use([Autoplay])
@@ -88,7 +90,7 @@ export default function Carousel({ slides }) {
                     ))}
                   </h4>
                 </h4>
-                  <h5 className="showmore"><span className="spanshowmore">Show more..</span></h5>
+                  <Link to={"/"+slide.id} className="showmore">Show more..</Link>
               </div>
             </div>
           </SwiperSlide>

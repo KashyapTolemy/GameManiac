@@ -135,7 +135,6 @@
   opacity: 0.7;
 }
 
-
 .withouthover{
   width:29vw;
   background-color: rgb(14,51,49);
@@ -152,7 +151,7 @@
   bottom: 0;
   z-index: 5;
   opacity: 0;
-  transition: opacity 1s; 
+  transition: opacity 1.5s; 
 }
 
 .sliderbox:hover .withouthover{
@@ -203,18 +202,15 @@
 }
 
 .showmore{
+  background-color: rgba(255, 0, 0, 0.235);
   color: rgba(237, 57, 57, 0.807);
   text-align: end;
-  padding-top:30px;
   padding-right: 13px;
-  background-color:inherit;
-}
-.spanshowmore{
-  background-color: rgba(255, 0, 0, 0.235);
+  border-radius: 8px;
   padding-left: 4px;
   padding-right: 4px;
-  border-radius: 8px;
 }
+
 .genrewisetitle{
   color: white;
   margin-bottom: 3vh;

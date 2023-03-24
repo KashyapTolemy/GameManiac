@@ -1,16 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Salespage from './components/salespage'
-import Carousel from './components/carousel'
-import Toprated from './components/toprated'
+import { Route,Routes,Link } from 'react-router-dom'
+import Home from "./pages/Home"
+import Infopage from './pages/Infopage'
 import slides from './mock.json'
-import Genrewise from './components/genrewise'
-import Tagwise from './components/tagwise'
-import Classic from './components/classic'
-import Awarded from './components/awarded'
-import { useEffect } from 'react'
 
 export default function App() {
   // useEffect(async () => {
@@ -19,15 +11,14 @@ export default function App() {
   //   console.log(data)
   // }, [])
     return (
-      <div>
-        <Salespage />
-        <Carousel slides={slides}/>
-        <Toprated boxes={slides}/>
-        <Genrewise slides={slides}/>
-        <Tagwise slides={slides}/>
-        <Classic slides={slides}/>
-        <Awarded slides={slides}/>
-      </div>
+      <>
+        <Routes>   
+          <Route path="/" element={<Home/>}/>
+          {/* {slides.map((slide)=>{ */}
+            <Route path="/4200" element={<Infopage/>}/>
+          
+        </Routes>
+      </>
     )
 }
 
