@@ -270,13 +270,12 @@
 }
 .genrewiseimages{
   display: flex;
-   align-items: center;
+  align-items: center;
 }
 .actionimg:hover,.adventureimg:hover,.rpgimg:hover,.puzzleimg:hover,.survivalimg:hover{
-    opacity: 0.5;
-    height:42vh;
-    width:22vw;
-    transition: 0.3s ease-in-out;
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 
 .tagcontainer{
@@ -315,19 +314,31 @@
   margin-top: 3vh;
   margin-left: 1vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  /* display: flex; */
+  display: flex;
+  border: 1px solid white;
+  border-radius:7px;
 }
 
 .classictitle{
-  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\B.png');
-  background-repeat: no-repeat;
   height: 40vh;
   width: auto;
-  border: 1px solid white;
-  border-radius:0.5px;
 }
 .classicimages{
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.classicimages img{
   height: 20vh;
-  width: 12vw;
+  width: 17vw;
+  border:0.1px solid rgb(10, 10, 94);
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.classicimages img:hover{
+  opacity: 0.6;
 }
