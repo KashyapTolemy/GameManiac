@@ -399,7 +399,6 @@
   background-blend-mode:color;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   color:white;
   padding: 10px;
 }
