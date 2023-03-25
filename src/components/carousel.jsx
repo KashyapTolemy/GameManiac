@@ -25,7 +25,7 @@ export default function Carousel({ slides }) {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {slides.map((slide) => (
+        {slides.map((slide,index) => (
           <SwiperSlide key={slide.id}>
             <div
               className="sliderbox"
@@ -90,7 +90,7 @@ export default function Carousel({ slides }) {
                     ))}
                   </h4>
                 </h4>
-                  <Link to={"/"+slide.id} className="showmore">Show more..</Link>
+                  <Link to={"/"+index} className="showmore">Show more..</Link>
               </div>
             </div>
           </SwiperSlide>

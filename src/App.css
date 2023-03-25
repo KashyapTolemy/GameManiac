@@ -130,6 +130,7 @@
 }
 .titleratingrecommend{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
 }
 .horizontalbox:hover{
   opacity: 0.7;
@@ -372,4 +373,13 @@
   transform: scale(1.05);
   transition: transform 1s;
   opacity: 0.6;
+}
+
+.text{
+  color:white;
+}
+
+.linktoprated{
+  text-decoration: none;
+  color: white;
 }

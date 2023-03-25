@@ -12,7 +12,7 @@ const Home = () => {
     <>
         <Salespage />
         <Carousel slides={slides}/>
-        <Toprated boxes={slides}/>
+        <Toprated slides={slides}/>
         <Genrewise slides={slides}/>
         <Tagwise slides={slides}/>
         <Classic slides={slides}/>
