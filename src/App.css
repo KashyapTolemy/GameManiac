@@ -383,3 +383,45 @@
   text-decoration: none;
   color: white;
 }
+.infopage{
+  background-color: rgb(105, 226, 185);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infopageContainer{
+  width: 93vw;
+  height: 93vh;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-blend-mode:color;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  color:white;
+  padding: 10px;
+}
+.infopageTitle{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  height:max-content;
+  width: max-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.infopara{
+  align-items: flex-start;
+}
+.infotitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
