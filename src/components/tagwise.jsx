@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 export default function Tagwise({ slides }) {
-    
+
     return (
 
         <div className="tagcontainer">
