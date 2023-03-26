@@ -39,7 +39,7 @@
 
 .sliderimg{
   width:29vw;
-  height:45vh;
+  height:20vw;
   border: 0.1px solid white;
   border-bottom: 0px;
   border-radius: 6px;
@@ -81,6 +81,7 @@
 }
 .sliderbox{
   width: 30vw;
+  height:30vw;
   background-color: inherit;
   margin-left: 4vw;
   margin-bottom: 4px;
@@ -119,7 +120,7 @@
   flex-wrap: wrap;
 }
 .horizontalbox{
-  height: 20vh;
+  height: 15vw;
   width: 20vw;
   margin-left: 2px;
   margin-right: 2px;
@@ -230,46 +231,58 @@
   margin-left: 1vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 95vw;
+  
 }
 .actionimg{
   /* background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\action.png');
   background-repeat: no-repeat; */
   height: 20vw;
   width: 17vw;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 3px;
+
 }
 .adventureimg{
-  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\adventure.png');
-  background-repeat: no-repeat;
+  /* background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\adventure.png');
+  background-repeat: no-repeat; */
   height: 20vw;
   width: 17vw;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 3px;
+
 }
 .rpgimg{
-  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\rpg.png');
-  background-repeat: no-repeat;
+  /* background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\rpg.png');
+  background-repeat: no-repeat; */
   height: 20vw;
   width: 17vw;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 3px;
+  margin-bottom: 3px;
+
 }
 .survivalimg{
-  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\survival.png');
-  background-repeat: no-repeat;
+  /* background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\survival.png');
+  background-repeat: no-repeat; */
   height: 20vw;
   width: 17vw;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 3px;
+
 }
 .puzzleimg{
-  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\puzzle.png');
-  background-repeat: no-repeat;
+  /* background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\puzzle.png');
+  background-repeat: no-repeat; */
   height: 20vw;
   width: 17vw;
   margin-left: 5px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+
 }
 .genrewisecontainers{
   display: flex;
@@ -303,7 +316,7 @@
 .tagtitle{
   color: rgba(255, 255, 255, 0.971);
   background-color: rgb(29, 27, 27);
-  font-size: 30px;
+  font-size: 2rem;
   border: 0.5px solid rgb(144, 137, 137);
   border-radius: 10px;
   padding-top: 6px;
@@ -344,7 +357,7 @@
   margin-right: 4px;
 }
 .classicimages img{
-  height: 20vh;
+  height: 10vw;
   width: 17vw;
   border:0.1px solid rgb(110, 109, 109);
   border-radius: 5px;
@@ -365,8 +378,8 @@
 .awardsContainer{
   color: white;
   flex-direction: row-reverse;
-  margin-bottom: 5vh;
-  margin-top: 10vh;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
   margin-left: 1vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
@@ -377,7 +390,7 @@
   width: 95vw;
 }
 .awardsimages img{
-  height: 20vh;
+  height: 10vw;
   width: 20vw;
   border:0.1px solid rgb(110, 109, 109);
   border-radius: 5px;

@@ -1,5 +1,11 @@
 import React from "react";
 import Action from "../images/action.png"
+import Adventure from "../images/adventure.png"
+import Rpg from "../images/rpg.png"
+import Survival from "../images/survival.png"
+import Puzzle from "../images/puzzle.png"
+
+
 export default function Genrewise({slides}){
     const actionitems = slides.filter(slide=>{
         return slide.tags.some(tag=>tag.name='Action')
@@ -21,10 +27,10 @@ export default function Genrewise({slides}){
             <h2 className="genrewisetitle">BROWSE BY CATEGORY</h2>
             <div className="genrewiseimages">
                 <img src={Action} alt="action"className="actionimg"></img>
-                <div className="adventureimg"></div>
-                <div className="rpgimg"></div>
-                <div className="survivalimg"></div>
-                <div className="puzzleimg"></div>
+                <img src={Adventure} alt="adventure"className="adventureimg"></img>
+                <img src={Rpg} alt="rpg" className="rpgimg"></img>
+                <img src={Survival} alt="survival" className="survivalimg"></img>
+                <img src={Puzzle} alt="puzzle" className="puzzleimg"></img>
             </div>
         </div> 
     )
