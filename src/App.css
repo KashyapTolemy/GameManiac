@@ -7,12 +7,12 @@
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\bgdb2.png');
   background-repeat:no-repeat;
   padding-top:0px;
-  height: 70vh;
+  height: 40vw;
+  width: 95%;
   display:flex;
-  padding-top:18vh;
-  padding-left:34.7vw;
 }
-.salesbox{
+
+/* .salesbox{
   background-color:rgb(4,173,147);
   height:120px;
   width:380px;
@@ -27,13 +27,14 @@
   font-family: 'Tourney', cursive;
   font-size: 30px;
   -webkit-text-stroke-color:solid white;
-}
+} */
 
 .boxtitle{
   color:white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 0px;
   margin-left: 1vw;
+  width: 95vw;
 }
 
 .sliderimg{
@@ -108,8 +109,8 @@
 .recommendcontainer{
   display: flex;
   flex-direction: column;
-  width: 1455px;
-  padding-top:100px;
+  width: 90vw;
+  padding-top:10vw;
   color: white;
 }
 .recommendboxes{
@@ -131,6 +132,8 @@
 .titleratingrecommend{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: none;
+  font-size: 0.8rem;
+  width: 20vw;
 }
 .horizontalbox:hover{
   opacity: 0.7;
@@ -218,6 +221,7 @@
   margin-top: 3vh;
   margin-left: 1vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 95vw;
 }
 .tagwisetitle{
   color: white;
@@ -225,55 +229,60 @@
   margin-top: 3vh;
   margin-left: 1vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 95vw;
 }
 .actionimg{
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\action.png');
   background-repeat: no-repeat;
-  height: 38vh;
-  width: 20vw;
+  height: 20vw;
+  width: 17vw;
   margin-left: 10px;
   margin-right: 5px;
 }
 .adventureimg{
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\adventure.png');
   background-repeat: no-repeat;
-  height: 38vh;
-  width: 20vw;
+  height: 20vw;
+  width: 17vw;
   margin-left: 5px;
   margin-right: 5px;
 }
 .rpgimg{
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\rpg.png');
   background-repeat: no-repeat;
-  height: 38vh;
-  width: 20vw;
+  height: 20vw;
+  width: 17vw;
   margin-left: 5px;
   margin-right: 5px;
 }
 .survivalimg{
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\survival.png');
   background-repeat: no-repeat;
-  height: 38vh;
-  width: 20vw;
+  height: 20vw;
+  width: 17vw;
   margin-left: 5px;
   margin-right: 5px;
 }
 .puzzleimg{
   background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\puzzle.png');
   background-repeat: no-repeat;
-  height: 38vh;
-  width: 20vw;
+  height: 20vw;
+  width: 17vw;
   margin-left: 5px;
   margin-right: 10px;
 }
 .genrewisecontainers{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .genrewiseimages{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  width: 95vw;
 }
+
 .actionimg:hover,.adventureimg:hover,.rpgimg:hover,.puzzleimg:hover,.survivalimg:hover{
   opacity: 0.9;
   transform: scale(1.1);
@@ -283,6 +292,7 @@
 .tagcontainer{
   display: flex;
   flex-direction: column;
+  
 }
 .tagwiseicons{
   display: flex;
@@ -306,6 +316,7 @@
   margin-right: 10px;
   height:max-content;
   transition: opacity 0.2s;
+  
 }
 .tagtitle:hover{
   opacity: 0.5;
@@ -315,6 +326,7 @@
   margin-bottom: 5vh;
   margin-top: 5vh;
   margin-left: 1vw;
+  width:95vw;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
   border: 3px solid rgb(150,147,251);
@@ -358,6 +370,7 @@
   border-radius:7px;
   padding-right: 3px;
   padding-left: 3px;
+  width: 95vw;
 }
 .awardsimages img{
   height: 20vh;

@@ -16,7 +16,7 @@ export default function Toprated({slides}){
                 {indexedArray.slice(0,10).map((box,index)=>(
                     <Link to={"/"+box.index} key={box.value.id} className="linktoprated">
                         <img className ="horizontalbox" src={box.value.background_image} alt ={box.value.name}></img>
-                        <h4 className="titleratingrecommend">{box.value.name}({box.value.rating}/{box.value.rating_top})</h4>
+                        <p className="titleratingrecommend">{box.value.name}({box.value.rating}/{box.value.rating_top})</p>
                     </Link>
                 ))}
             </div>

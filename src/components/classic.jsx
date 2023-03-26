@@ -4,7 +4,6 @@ export default function Classic({slides}){
     const classicsItems = slides.filter(slide => {
         return slide.tags.some(tag => tag.name === 'Classic');
       });
-    console.log(classicsItems)
     return(
         <div className="classicContainer">
             <img classname="pacmanimage" src={pacman} alt="classic"></img>
