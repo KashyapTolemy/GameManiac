@@ -7,7 +7,7 @@ export default function awarded({slides}){
     })
     return(
         <div className="awardsContainer">
-            <img classname="gameawardimage" src={awards} alt="gameawards"></img>
+            <img className="gameawardimage" src={awards} alt="gameawards"></img>
             <div className="awardsimages">
             {awarditems.slice(0,6).map(awarditem=>(
                 <img src={awarditem.background_image} alt="gameimages"></img>

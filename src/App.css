@@ -232,8 +232,8 @@
   width: 95vw;
 }
 .actionimg{
-  background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\action.png');
-  background-repeat: no-repeat;
+  /* background-image: url('C:\Users\ASUS\Desktop\GameDeal\src\images\action.png');
+  background-repeat: no-repeat; */
   height: 20vw;
   width: 17vw;
   margin-left: 10px;
@@ -358,6 +358,10 @@
   transition: transform 1s;
   opacity: 0.6;
 }
+.pacmanimage{
+  width: 30vw;
+  height: auto;
+}
 .awardsContainer{
   color: white;
   flex-direction: row-reverse;
@@ -387,7 +391,10 @@
   transition: transform 1s;
   opacity: 0.6;
 }
-
+.gameawardimage{
+  width: 30vw;
+  height:auto;
+}
 .text{
   color:white;
 }
