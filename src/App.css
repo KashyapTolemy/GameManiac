@@ -537,3 +537,7 @@
     font-size: 1.5rem;
   }
 }
+.listContainer{
+  /* background-color: white; */
+  color: white;
+}

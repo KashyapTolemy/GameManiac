@@ -2,7 +2,7 @@ import './App.css'
 import { Route, Routes, Link } from 'react-router-dom'
 import Home from "./pages/Home"
 import Infopage from './pages/Infopage'
-import slides from './mock.json'
+import List from './pages/List'
 
 export default function App() {
   return (
@@ -10,6 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<Infopage />} />
+        <Route path="/category/:id" element={<List />} />
       </Routes>
     </>
   )

@@ -73,7 +73,7 @@ export default function Carousel({ slides }) {
                     slidesPerView={1}
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
-                    onSlideChange={() => console.log("slide change")}
+                    // onSlideChange={}
                     onSwiper={(swiper) => console.log(swiper)}
                   >
                     {slide.short_screenshots.map((ss) => (
@@ -93,8 +93,8 @@ export default function Carousel({ slides }) {
                   score of {slide.metacritic}
                   <br></br>
                   <h4 className="platformname">Available on&nbsp;
-                    {slide.platforms.map((platforms) => (
-                      <span className="platformname">{platforms.platform.name}&#44;&nbsp;</span>
+                    {slide.platforms.map((item) => (
+                      <span key={item.platform.id} className="platformname">{item.platform.name}&#44;&nbsp;</span>
                     ))}
                   </h4>
                 </div>

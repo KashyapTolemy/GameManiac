@@ -9,7 +9,7 @@ export default function Classic({ slides }) {
             <img className="pacmanimage" src={pacman} alt="classic"></img>
             <div className="classicimages">
                 {classicsItems.slice(0, 8).map(classicitem => (
-                    <img src={classicitem.background_image} alt="gameimages"></img>
+                    <img src={classicitem.background_image} key={classicitem.id} alt="gameimages"></img>
                 ))}
             </div>
         </div>
