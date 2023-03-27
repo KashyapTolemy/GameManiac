@@ -538,6 +538,19 @@
   }
 }
 .listContainer{
-  /* background-color: white; */
   color: white;
+  
+}
+.ListBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem2{
+  display: flex;
+  /* flex-direction: column; */
+}
+.listimage2{
+  width: 40vw;
+  height:auto;
 }
