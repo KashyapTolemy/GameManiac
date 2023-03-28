@@ -33,7 +33,7 @@ export default function Carousel({ slides }) {
         // onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {slides.map((slide, index) => (
+        {slides.slice(0,9).map((slide, index) => (
           <SwiperSlide key={slide.id}>
             <div
               className="sliderbox"

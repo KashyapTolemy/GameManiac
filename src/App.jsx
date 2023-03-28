@@ -3,6 +3,7 @@ import { Route, Routes, Link } from 'react-router-dom'
 import Home from "./pages/Home"
 import Infopage from './pages/Infopage'
 import List from './pages/List'
+import Taglist from './pages/Taglist'
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<Infopage />} />
         <Route path="/category/:id" element={<List />} />
+        <Route path="/tags/:id" element={<Taglist />} />
       </Routes>
     </>
   )

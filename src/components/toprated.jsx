@@ -13,7 +13,7 @@ export default function Toprated({ slides }) {
         <div className="recommendcontainer">
             <h2 className="boxtitle">TOP RATED GAMES </h2>
             <div className="recommendboxes">
-                {indexedArray.slice(0, 10).map((box, index) => (
+                {indexedArray.slice(0, 9).map((box, index) => (
                     <Link to={"/" + box.index} key={box.value.id} className="linktoprated">
                         <img className="horizontalbox" src={box.value.background_image} alt={box.value.name}></img>
                         <p className="titleratingrecommend">{box.value.name}({box.value.rating}/{box.value.rating_top})</p>

@@ -3,16 +3,16 @@ import { useParams } from "react-router-dom"
 import slides from "../mock.json"
 import "../App.css"
 import { Link } from 'react-router-dom'
-const List = ({ }) => {
-  const { id } = useParams();
-  const items = slides.filter(slide => (
-    slide.genres.some(tag => tag.name = { id })
-  ))
+const Taglist = () => {
+        const { id } = useParams();
+        const tagitems = slides.filter(slide => (
+          slide.tags.some(tag => tag.name = { id })
+        ))
   return (
-    <div className='listPage'>
+    <div className='tagPage'>
       <div className='listContainer'>
         <div className='listcontainer2'>
-          {items.map((item, index) => {
+          {tagitems.map((item, index) => {
             return index < 2 ?
               (
                 <div className='listitem2'>
@@ -25,7 +25,7 @@ const List = ({ }) => {
           })}
         </div>
         <div className='listcontainer3'>
-          {items.map((item, index) => {
+          {tagitems.map((item, index) => {
             return index >= 2 && index < 5 ?
               (
                 <div className='listitem3'>
@@ -38,7 +38,7 @@ const List = ({ }) => {
           })}
         </div>
         <div className='listcontainer4'>
-          {items.map((item, index) => {
+          {tagitems.map((item, index) => {
             return index >= 5 ?
               (
                 <div className='listitem4'>
@@ -55,4 +55,4 @@ const List = ({ }) => {
   )
 }
 
-export default List
+export default Taglist
